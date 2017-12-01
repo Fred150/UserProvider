@@ -8,3 +8,10 @@ spring:
     url: jdbc:mysql://10.214.170.31:3306/userdb
     username: springuser
     password: Wanda01!
+info:
+  app:
+    name: @project.artifactId@
+    encoding: @project.build.sourceEncoding@
+    java:
+      source: @java.version@
+      target: @java.version@
