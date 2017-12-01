@@ -1,0 +1,10 @@
+server:
+  port: 8090
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:mysql://10.214.170.31:3306/userdb
+    username: springuser
+    password: Wanda01!
