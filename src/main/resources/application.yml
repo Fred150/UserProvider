@@ -5,7 +5,7 @@ spring:
     hibernate:
       ddl-auto: create
   datasource:
-    url: jdbc:mysql://10.214.170.31:3306/userdb
+    url: jdbc:mysql://10.240.255.5:3306/userdb
     username: springuser
     password: Wanda01!
 info:
